@@ -1,0 +1,16 @@
+{
+	"name": "my-netlify-functions-project",
+	"version": "1.0.0",
+	"description": "A Netlify Functions project that uses Firebase",
+	"main": "functions/webhook.js",
+	"scripts": {
+	  "start": "netlify dev",
+	  "build": "echo 'No build step'"
+	},
+	"dependencies": {
+	  "firebase-admin": "^10.0.0"
+	},
+	"devDependencies": {
+	  "netlify-cli": "^6.14.11"
+	}
+  }
